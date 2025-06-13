@@ -1,9 +1,9 @@
 package models
 
 type User struct {
-    ID        int    `db:"id" json:"id"`
-    Name      string `db:"name" json:"name"`
-	Last_name string `db:"last_name" json:"last_name"`
-    Email     string `db:"email" json:"email"`
-    CreatedAt string `db:"created_at" json:"created_at"`
+    User_ID        int    `json:"user_id"`
+    User_Name      string `json:"user_name"`
+	User_Last_name string `json:"user_last_name"`
+    User_Email     string `json:"user_email"`
+    CreatedAt string `json:"created_at"`
 }
